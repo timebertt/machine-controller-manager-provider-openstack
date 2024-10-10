@@ -107,3 +107,6 @@ require (
 
 // temporary workaround while gardener adopts latest client packages
 replace k8s.io/code-generator => k8s.io/code-generator v0.29.0
+
+// https://github.com/gardener/machine-controller-manager/pull/937
+replace github.com/gardener/machine-controller-manager => ../machine-controller-manager
